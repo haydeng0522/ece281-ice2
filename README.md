@@ -18,3 +18,5 @@ Then it **elaborates** the *any* entity with the name `*_tb`. In this case, that
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+Documentation: The program functioned as expected. When one of the two switches are on, led0 is on and led1 is off. When both switches are on, led1 is on and led0 is off. Video demo is IMG_1051.MOV.
